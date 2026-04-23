@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="bg-white font-sans text-gray-900">
+
+    <header class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+        <div class="flex-1"></div> <nav class=" md:flex space-x-8 text-sm font-medium text-gray-600">
+            <a href="#" class="hover:text-emerald-500 transition">Booking</a>
+            <a href="#" class="hover:text-emerald-500 transition">Facilities</a>
+            <a href="#" class="hover:text-emerald-500 transition">About Us</a>
+            <a href="#" class="hover:text-emerald-500 transition">Location</a>
+            <a href="#" class="hover:text-emerald-500 transition">Contact</a>
+        </nav>
+
+        <div class="flex-1 flex justify-end">
+            <a href="#" class="bg-emerald-500 text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-emerald-600 transition">Login</a>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 relative">
+        <div class="bg-emerald-50/50 rounded-[40px] overflow-hidden flex flex-col md:flex-row items-center min-h-[500px]">
+            
+            <div class="md:w-1/2 p-12 lg:p-20">
+                <h1 class="text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                    Find your perfect place to stay
+                </h1>
+                <p class="text-gray-500 text-lg mb-10 max-w-md">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                
+                <button class="flex items-center space-x-3 group">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md group-hover:scale-110 transition">
+                        <svg class="w-5 h-5 text-emerald-500 fill-current" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </div>
+                    <span class="font-semibold text-gray-700">Watch video</span>
+                </button>
+            </div>
+
+            <div class="md:w-1/2 h-full self-stretch">
+                <img src="./src/image (28).png" 
+                     alt="House" 
+                     class="w-full h-full object-cover">
+            </div>
+        </div>
+
+        <div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-[90%] max-w-5xl bg-white shadow-2xl shadow-gray-200/50 rounded-full p-2 flex flex-col md:flex-row items-center">
+            
+            <div class="flex-1 flex items-center px-6 py-3 border-r border-gray-100">
+                <div class="text-emerald-500 mr-3">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                </div>
+                <div>
+                    <p class="text-sm font-bold">Location</p>
+                    <p class="text-xs text-gray-400">United States</p>
+                </div>
+            </div>
+
+            <div class="flex-1 flex items-center px-6 py-3 border-r border-gray-100">
+                <div class="text-emerald-500 mr-3">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                </div>
+                <div>
+                    <p class="text-sm font-bold">Check in</p>
+                    <p class="text-xs text-gray-400">10 Jun 2021</p>
+                </div>
+            </div>
+
+            <div class="flex-1 flex items-center px-6 py-3 border-r border-gray-100">
+                <div class="text-emerald-500 mr-3">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                </div>
+                <div>
+                    <p class="text-sm font-bold">Check out</p>
+                    <p class="text-xs text-gray-400">15 Jun 2021</p>
+                </div>
+            </div>
+
+            <div class="flex-1 flex items-center px-6 py-3">
+                <div class="text-emerald-500 mr-3">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+                </div>
+                <div>
+                    <p class="text-sm font-bold">Rooms for</p>
+                    <p class="text-xs text-gray-400">1 room, 2 guests</p>
+                </div>
+            </div>
+
+            <button class="bg-emerald-500 text-white flex items-center justify-center space-x-2 px-10 py-4 rounded-full hover:bg-emerald-600 transition ml-2">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                <span class="font-semibold text-lg">Search...</span>
+            </button>
+        </div>
+    </main>
+
+    <div class="h-40"></div>
+
+</body>
+
+</html>
