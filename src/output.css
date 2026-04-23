@@ -378,6 +378,9 @@
   .mb-40 {
     margin-bottom: calc(var(--spacing) * 40);
   }
+  .mb-\[20px\] {
+    margin-bottom: 20px;
+  }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
   }
@@ -512,6 +515,9 @@
   }
   .w-\[900px\] {
     width: 900px;
+  }
+  .w-\[1200\] {
+    width: 1200;
   }
   .w-\[1200px\] {
     width: 1200px;
